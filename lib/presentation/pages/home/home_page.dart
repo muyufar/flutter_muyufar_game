@@ -46,9 +46,9 @@ class _HomePageState extends State<HomePage> {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16),
           child: Text(
-            'Muyufar',
+            'SMK Syubannul Wathan Tegalrejo',
             style: TextStyle(
-                fontWeight: FontWeight.bold, color: colorPrimary, fontSize: 28),
+                fontWeight: FontWeight.bold, color: colorPrimary, fontSize: 18),
           ),
         ),
         Container(
@@ -90,10 +90,15 @@ class _HomePageState extends State<HomePage> {
     return AppBar(
       elevation: 0,
       backgroundColor: Colors.transparent,
-      leading: Icon(
-        Icons.gamepad_rounded,
-        color: colorPrimary,
+      leading: Padding(
+        padding: const EdgeInsets.only(top: 10,left: 10),
+        child: Image.asset("assets/images/icon.png"),
       ),
+      
+      //  Icon(
+      //   Icons.gamepad_rounded,
+      //   color: colorPrimary,
+      // ),
       actions: [
         PopupMenuButton(
             icon: const Icon(
