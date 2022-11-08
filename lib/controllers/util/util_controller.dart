@@ -21,10 +21,10 @@ class UtilController {
   }
 
   infoApp() async {
-    // PackageInfo packageInfo = await PackageInfo.fromPlatform();
-    // appName = packageInfo.appName;
-    // packageName = packageInfo.packageName;
-    // version = packageInfo.version;
-    // buildNumber = packageInfo.buildNumber;
+    PackageInfo packageInfo = await PackageInfo.fromPlatform();
+    appName = packageInfo.appName;
+    packageName = packageInfo.packageName;
+    version = packageInfo.version;
+    buildNumber = packageInfo.buildNumber;
   }
 }
