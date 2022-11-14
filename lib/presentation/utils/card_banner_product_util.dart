@@ -14,7 +14,7 @@ class CardBannerProductUtil extends StatelessWidget {
         Navigator.push(
           context,
           MaterialPageRoute(
-              builder: (context) => GameWebViewPage(product.linkGame)),
+              builder: (context) => GameWebViewPage(url: product.linkGame,isLandscape: product.isLandscape)),
         );
       },
       child: Container(

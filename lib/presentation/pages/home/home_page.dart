@@ -196,7 +196,7 @@ class HomePage extends StatelessWidget {
                         context,
                         MaterialPageRoute(
                             builder: (context) =>
-                                GameWebViewPage(product[index].linkGame)),
+                                GameWebViewPage(url: product[index].linkGame,isLandscape: product[index].isLandscape)),
                       );
                     },
                     leading: Container(

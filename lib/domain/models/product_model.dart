@@ -5,6 +5,7 @@ class ProductModel {
   final String genre;
   final String description;
   final String linkGame;
+  final bool isLandscape;
 
   const ProductModel(
       {required this.id,
@@ -12,7 +13,8 @@ class ProductModel {
       required this.name,
       required this.genre,
       required this.description,
-      required this.linkGame});
+      required this.linkGame,
+      required this.isLandscape});
 
   factory ProductModel.fromJson(Map<String, dynamic> json) {
     return ProductModel(
@@ -21,6 +23,7 @@ class ProductModel {
         name: json['name'],
         genre: json['genre'],
         description: json['description'],
-        linkGame: json['link_game']);
+        linkGame: json['link_game'],
+        isLandscape:json['is_landscape']);
   }
 }

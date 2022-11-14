@@ -6,7 +6,8 @@
             "name": "Islam Education",
             "genre": "Education, Action",
             "description": "Mari belajar dengan asik",
-            "link_game": "http://ebook.windypermadi.com/Unity/projectsw/kelompoksatu"
+            "link_game": "http://ebook.windypermadi.com/Unity/projectsw/kelompoksatu",
+            "is_landscape":true
         },
         {
             "id": "pd002",
@@ -14,7 +15,8 @@
             "name": "Azam Acan Belajar Mengaji",
             "genre": "Education",
             "description": "Ini adalah game buatan siswa PKL SMK Syubannul Wathon yang di peruntuhkan untuk anak anak",
-            "link_game": "http://ebook.windypermadi.com/Unity/projectsw/kelompokdua"
+            "link_game": "http://ebook.windypermadi.com/Unity/projectsw/kelompokdua",
+            "is_landscape":true
         },
         {
             "id": "pd003",
@@ -22,7 +24,8 @@
             "name": "Petualangan Pesawat",
             "genre": "Action",
             "description": "Ini adalah game buatan siswa PKL SMK Syubannul Wathon yang di peruntuhkan untuk anak anak",
-            "link_game": "http://ebook.windypermadi.com/Unity/projectsw/kelompokempat"
+            "link_game": "http://ebook.windypermadi.com/Unity/projectsw/kelompokempat",
+            "is_landscape":false
         },
         {
             "id": "pd004",
@@ -30,7 +33,8 @@
             "name": "Gamelan Jawa",
             "genre": "Education",
             "description": "Ini adalah game buatan siswa PKL SMK Syubannul Wathon yang di peruntuhkan untuk anak anak",
-            "link_game": "http://ebook.windypermadi.com/Unity/projectsw/kelompoklima"
+            "link_game": "http://ebook.windypermadi.com/Unity/projectsw/kelompoklima",
+            "is_landscape":true
         },
         {
             "id": "pd005",
@@ -38,7 +42,8 @@
             "name": "Mari Belajar Berwudhu Bersama",
             "genre": "Education, Kids",
             "description": "Ini adalah game buatan siswa PKL SMK Syubannul Wathon yang di peruntuhkan untuk anak anak",
-            "link_game": "http://ebook.windypermadi.com/Unity/projectsw/kelompokenam"
+            "link_game": "http://ebook.windypermadi.com/Unity/projectsw/kelompokenam",
+            "is_landscape":true
         },
         {
             "id": "pd006",
@@ -46,7 +51,8 @@
             "name": "Mari Belajar Bersama Azam & Acan",
             "genre": "Kids",
             "description": "Ini adalah game buatan siswa PKL SMK Syubannul Wathon yang di peruntuhkan untuk anak anak",
-            "link_game": "http://ebook.windypermadi.com/Unity/projectsw/kelompoktuju"
+            "link_game": "http://ebook.windypermadi.com/Unity/projectsw/kelompoktuju",
+            "is_landscape":true
         },
         {
             "id": "pd007",
@@ -54,7 +60,8 @@
             "name": "Shilahul Muta'alim",
             "genre": "Kids",
             "description": "Ini adalah game buatan siswa PKL SMK Syubannul Wathon yang di peruntuhkan untuk anak anak",
-            "link_game": "http://ebook.windypermadi.com/Unity/projectsw/kelompokdelapan"
+            "link_game": "http://ebook.windypermadi.com/Unity/projectsw/kelompokdelapan",
+            "is_landscape":false
         },
         {
             "id": "pd008",
@@ -62,7 +69,8 @@
             "name": "Boy Scout",
             "genre": "Kids",
             "description": "Ini adalah game buatan siswa PKL SMK Syubannul Wathon yang di peruntuhkan untuk anak anak",
-            "link_game": "http://ebook.windypermadi.com/Unity/projectsw/kelompoksepuluh"
+            "link_game": "http://ebook.windypermadi.com/Unity/projectsw/kelompoksepuluh",
+            "is_landscape":true
         },
         {
             "id": "pd009",
@@ -70,7 +78,26 @@
             "name": "Day School",
             "genre": "Kids",
             "description": "Ini adalah game buatan siswa PKL SMK Syubannul Wathon yang di peruntuhkan untuk anak anak",
-            "link_game": "http://ebook.windypermadi.com/Unity/projectsw/kelompoksebelas"
+            "link_game": "http://ebook.windypermadi.com/Unity/projectsw/kelompoksebelas",
+            "is_landscape":false
+        },
+        {
+            "id": "pd0010",
+            "cover": "http://ebook.windypermadi.com/Unity/projectsw/Logo/tambahankelompokdua.png",
+            "name": "Mari Belajar Sayuran ",
+            "genre": "Education, Kids",
+            "description": "Ini adalah game buatan siswa PKL SMK Syubannul Wathon yang di peruntuhkan untuk anak anak",
+            "link_game": "http://ebook.windypermadi.com/Unity/projectsw/tambahankelompokdua",
+            "is_landscape":true
+        },
+        {
+            "id": "pd0011",
+            "cover": "http://ebook.windypermadi.com/Unity/projectsw/Logo/tambahankelompoklima.png",
+            "name": "Tebak Nama Hewan ",
+            "genre": "Education, Kids",
+            "description": "Ini adalah game buatan siswa PKL SMK Syubannul Wathon yang di peruntuhkan untuk anak anak",
+            "link_game": "https://ebook.windypermadi.com/Unity/projectsw/tambahankelompoklima",
+            "is_landscape":true
         }
     ]
 }

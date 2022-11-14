@@ -2,7 +2,8 @@ part of '../pages.dart';
 
 class GameWebViewPage extends StatefulWidget with WidgetsBindingObserver {
   final String url;
-  const GameWebViewPage(this.url, {super.key});
+  final bool isLandscape;
+  const GameWebViewPage( {required this.url,required this.isLandscape, super.key});
 
   @override
   State<GameWebViewPage> createState() => _GameWebViewPageState();
@@ -12,7 +13,7 @@ class _GameWebViewPageState extends State<GameWebViewPage> {
   GameWebViewController gameWebViewController = GameWebViewController();
   @override
   void initState() {
-    gameWebViewController.initPage(widget.url);
+    gameWebViewController.initPage(url: widget.url,isLandscape: widget.isLandscape);
     super.initState();
   }
 
@@ -81,7 +82,7 @@ class _GameWebViewPageState extends State<GameWebViewPage> {
                   onTap: () {
                     Navigator.pop(context);
                     WidgetsBinding.instance
-                        .removeObserver(GameWebViewPage(widget.url));
+                        .removeObserver(GameWebViewPage(url: widget.url, isLandscape: widget.isLandscape));
                     SystemChrome.setPreferredOrientations(
                         [DeviceOrientation.portraitUp]);
                     SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,

@@ -29,7 +29,7 @@ class _MorePageState extends State<MorePage> {
                             context,
                             MaterialPageRoute(
                                 builder: (context) => GameWebViewPage(
-                                    moreController.product[index].linkGame)),
+                                   url: moreController.product[index].linkGame,isLandscape:  moreController.product[index].isLandscape,)),
                           );
                         },
                         leading: Container(
@@ -67,7 +67,7 @@ class _MorePageState extends State<MorePage> {
                       context,
                       MaterialPageRoute(
                           builder: (context) => GameWebViewPage(
-                              moreController.searchProduct[index].linkGame)),
+                             url: moreController.searchProduct[index].linkGame,isLandscape:  moreController.product[index].isLandscape,)),
                     );
                   },
                   leading: Container(
